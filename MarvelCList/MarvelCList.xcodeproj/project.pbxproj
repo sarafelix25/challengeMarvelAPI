@@ -97,12 +97,10 @@
 		896003512A0C4B6C00447DE4 /* MarvelCList */ = {
 			isa = PBXGroup;
 			children = (
-				896003522A0C4B6C00447DE4 /* AppDelegate.swift */,
-				896003542A0C4B6C00447DE4 /* SceneDelegate.swift */,
-				896003562A0C4B6C00447DE4 /* ViewController.swift */,
-				8960035B2A0C4B6D00447DE4 /* Assets.xcassets */,
-				8960035D2A0C4B6D00447DE4 /* LaunchScreen.storyboard */,
+				896003832A0C51EB00447DE4 /* AppDelegate */,
 				896003602A0C4B6D00447DE4 /* Info.plist */,
+				896003822A0C51E300447DE4 /* Resources */,
+				896003842A0C520100447DE4 /* Screens */,
 			);
 			path = MarvelCList;
 			sourceTree = "<group>";
@@ -122,6 +120,32 @@
 				896003752A0C4B6E00447DE4 /* MarvelCListUITestsLaunchTests.swift */,
 			);
 			path = MarvelCListUITests;
+			sourceTree = "<group>";
+		};
+		896003822A0C51E300447DE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8960035D2A0C4B6D00447DE4 /* LaunchScreen.storyboard */,
+				8960035B2A0C4B6D00447DE4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		896003832A0C51EB00447DE4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				896003522A0C4B6C00447DE4 /* AppDelegate.swift */,
+				896003542A0C4B6C00447DE4 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		896003842A0C520100447DE4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				896003562A0C4B6C00447DE4 /* ViewController.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
